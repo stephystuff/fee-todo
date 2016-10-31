@@ -30,7 +30,7 @@
     eventObj.preventDefault();
     var newSubmission = document.querySelector('.new-todo').value;
 
-    newToDo(newSubmission)
+    newToDo(newSubmission);
   });
 
 })();

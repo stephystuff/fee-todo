@@ -28,6 +28,8 @@
   document.querySelector('form').addEventListener('submit', function submit(eventObj){
     eventObj.preventDefault();
     var newSubmission = document.querySelector('.new-todo').value;
+
+    newToDo(newSubmission)
   });
 
 })();

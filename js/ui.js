@@ -1,6 +1,7 @@
 (function(){
   window.dom = window.dom || {};
 
+// Function for marking an item complete and deleting item//
   document
     .querySelector('ul')
     .addEventListener("click", function markComplete(eventObj){

@@ -1,7 +1,7 @@
 (function(){
   window.dom = window.dom || {};
 
-//This is the function for creating new to-do items//
+  //This is the function for creating new to-do items//
   function newToDo(text){
 
     var addLi = document.createElement('li');
@@ -25,7 +25,7 @@
     document.querySelector('ul').appendChild(addLi);
   }
 
-//Function for submitting form//
+  //Function for submitting form//
   document.querySelector('form').addEventListener('submit', function submit(eventObj){
     eventObj.preventDefault();
     var newSubmission = document.querySelector('.new-todo').value;

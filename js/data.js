@@ -1,6 +1,7 @@
 (function(){
   window.dom = window.dom || {};
 
+
   function newToDo(text){
 
     var addLi = document.createElement('li');
@@ -24,5 +25,9 @@
     document.querySelector('ul').appendChild(addLi);
   }
 
+  document.querySelector('form').addEventListener('submit', function submit(eventObj){
+    eventObj.preventDefault();
+    var newSubmission = document.querySelector('.new-todo').value;
+  });
 
 })();

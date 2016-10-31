@@ -1,13 +1,6 @@
 (function(){
   window.dom = window.dom || {};
 
-  document.querySelector('form').addEventListener('submit', function submit(eventObj){
-    eventObj.preventDefault();
-    var newSubmission = document.querySelector('.new-todo').value;
-
-    newToDo(newSubmission)
-  });
-
   document
     .querySelector('ul')
     .addEventListener("click", function markComplete(eventObj){

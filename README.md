@@ -1,2 +1,1 @@
-# fee-todo
-Beginnings of a TODO list application
+This is my code for creating a todo list using JavaScript and the DOM.

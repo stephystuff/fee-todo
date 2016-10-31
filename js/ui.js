@@ -1,5 +1,8 @@
 (function(){
-  console.log('working');
+  window.dom = window.dom || {};
+
+  
+
 
 
 

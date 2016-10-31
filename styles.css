@@ -366,9 +366,10 @@ body {
   font-family: "Roboto Condensed", Helvetica, Arial, sans-serif; }
 
 h1 {
-  font-size: 4em;
+  font-size: 6em;
   color: #ead8d8;
-  font-weight: normal;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: lighter;
   text-align: center; }
 
 main {
